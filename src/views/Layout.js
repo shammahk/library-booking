@@ -2,7 +2,7 @@ import React from "react";
 import styled, { css, ThemeProvider } from "@wigxel/react-components";
 import Header from "../components/Header";
 import NavItem from "../components/NavItem";
-import { NotificationBar } from '../components/NotificationBar'
+import NotificationBar  from '../components/NotificationBar'
 import { IconLinks } from '../components/Icons';
 import { useLayout } from '../libs/LayoutStore';
 import { Light, Dark } from '../libs/Theme';

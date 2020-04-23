@@ -24,7 +24,7 @@ const NotifStyle = styled.aside`
 
 const helpIcon = <img src={IconLinks.Faq} alt="" className="w-5"/>;
 
-export const NotificationBar = () => {
+const NotificationBar = () => {
 	const { store, action } = useLayout()
 
 	return (
@@ -53,3 +53,5 @@ export const NotificationBar = () => {
 		</NotifStyle>
 	)
 }
+
+export default NotificationBar;
